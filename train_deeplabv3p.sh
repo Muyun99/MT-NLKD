@@ -1,0 +1,15 @@
+# 训 Baseline
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_0_fp16.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_20_fp16.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_40_fp16.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_60_fp16.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_80_fp16.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_100_fp16.py 2
+
+# 训 KDLoss
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_0_fp16_kdloss.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_20_fp16_kdloss.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_40_fp16_kdloss.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_60_fp16_kdloss.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_80_fp16_kdloss.py 2
+bash tools/dist_train.sh configs/deeplabv3plus/deeplabv3plus_r18-d8_512x1024_80k_cityscapes_coarse_100_fp16_kdloss.py 2
